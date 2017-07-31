@@ -1,0 +1,170 @@
+html body {
+    background-color:#000;
+}
+
+a {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color:#fcf4a1;
+}
+
+a:hover{
+    color:#ffea00;
+    text-decoration: none;
+}
+
+a:active{
+    color:#ffea00;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    color:#aaa;
+}
+
+.pk {
+    font-family: 'Arial', Serif;
+    font-size:25px;
+}
+
+.facts {
+    font-size: 17px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#button:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
+h1 {
+    text-align:center;
+    color:#aaa;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color:#aaa !important;
+}
+
+b {
+    color: #fff;
+}
+
+p {
+    color: #aaa;
+    text-indent: 20px;
+}
+
+.copyright {
+    color: #222;
+    text-indent: 0px;
+}
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    
+    z-index:1032;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+
+.responsive-container {
+    position: relative;
+    padding-bottom: 53.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-container,
+.responsive-container iframe {
+    max-width: 1280px;
+    max-height: 720px;
+}
+.responsive-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+   text-align:center;
+}
+
+.centerBody{
+   max-width: 1080px;
+   text-align:center;
+   margin: 0px auto;
+   padding-left: 30px;
+   padding-right: 30px;
+}

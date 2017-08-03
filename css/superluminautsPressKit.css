@@ -8,6 +8,18 @@ a {
     color:#fcf4a1;
 }
 
+a:visited {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color:#fcf4a1;
+}
+
+a:link {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color:#fcf4a1;
+}
+
 a:hover,
 a:active{
     color:#ffea00;

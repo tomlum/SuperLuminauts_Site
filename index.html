@@ -296,6 +296,8 @@
             vid.removeAttribute("autoplay");
             vid.pause();
             pauseButton.innerHTML = "Paused";
+              vid.parentNode.removeChild(vid);
+              pauseButton.parentNode.removeChild(pauseButton);
         }
 
         pauseButton.addEventListener("click", function() {
